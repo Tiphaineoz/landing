@@ -1,0 +1,13 @@
+.banner{
+  margin:0;
+  background-size: cover;
+  background-position-x:center;
+  background-position-y:-50px;
+  padding: 150px 0px;
+}
+
+.banner a{
+  display: inline-block;
+  position: absolute;
+  right:350px;
+}

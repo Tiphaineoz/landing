@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* COMPONENTS */
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/cards.css');
+@import url('components/container.css');
+@import url('components/footer.css');
+@import url('components/icon.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: #FCF6E6 ;
+}
+
+h1, h2, h3, h4 {
+  font-family: Nunito;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.cards-inline{
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-center {
+  display: flex;
+  justify-content:center ;
+  font-size: 20px;
+  margin:0;
+}
+
